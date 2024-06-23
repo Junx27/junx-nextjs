@@ -32,7 +32,13 @@ function Navbar() {
   return (
     <div className="flex justify-between p-5 items-center">
       <div className="flex">
-        <Image src="/logo.png" width={40} height={40} alt="logo" />
+        <Image
+          src="/logo.png"
+          width={40}
+          height={40}
+          alt="logo"
+          className="w-10 h-10"
+        />
         <h1 className="poppins-light text-[10px] text-gray-500 ml-3 -mt-4">
           Junx Web Developer{" "}
           <span className="text-orange-500 text-4xl animate-pulse">.</span>
