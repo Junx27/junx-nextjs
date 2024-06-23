@@ -15,6 +15,12 @@ function page() {
         saya akan mendeploy dengan menggunakan gihub sebagai repositori dan
         menggunakan vercel sebagai server gratis dari pengembang next js
       </p>
+      <p className="text-white text-3xl">
+        kenapan menjadi instan dengan menggunakan vercel, apakah next js
+        merupakan library yang dikembangkan oleh vercel sehingga ketikan
+        menlakukan perbuhanan pada repositori github otomatis melakukan
+        perubahan pada sisi server di vercel
+      </p>
     </div>
   );
 }
